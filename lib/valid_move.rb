@@ -10,10 +10,11 @@ def position_taken?(array, index)
       puts "wrong move"
 end
 
+
 def valid_move?
   if position_taken? == TRUE
     puts "error"
   else position_taken? == FALSE
     puts "go ahead"
   end
-  
+end
